@@ -2,6 +2,6 @@
 
 stage('Demo') {
     def fName ='RAAM'
-    echo 'Hello ${fName}..Inside the Demo Stage'
+    echo ("Hello ${fName}..Inside the Demo Stage")
     sayHello 'Dave'
 }
